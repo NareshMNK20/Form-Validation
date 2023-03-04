@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css.css">
+
+</head>
+<body>
+
+<h1> Form Validation</h1>
+
+<!-- Display Error Message -->
+<div id="Error Messages">
+</div>
+
+<!-- Form Validation -->
+<section class="login-section">
+    <h2>Register Here</h2>
+    <form onsubmit="return validateForm()" class="login-form" id="login-form">
+        <input type="text" placeholder="User Name" id="username">
+        <br><br>
+        <input type="email" placeholder="Email" id="email">
+        <br><br>
+        <input type="password" placeholder="Password" id="password">
+        <br><br>
+        <input type="password" placeholder="Confirm Password" id="c_password">
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+
+</section>
+<script src="./script.js.js"></script>
+</body>
+</html>
